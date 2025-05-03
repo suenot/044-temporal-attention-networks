@@ -1,0 +1,26 @@
+# TABL: Temporal Attention-Augmented Bilinear Network
+# Requirements for Python implementation
+
+# Deep Learning
+# torch>=2.6.0 required to fix RCE vulnerability (CVE in torch.load)
+torch>=2.6.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# HTTP requests (for Bybit API)
+requests>=2.28.0
+
+# Visualization (optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Scientific computing
+scipy>=1.10.0
+
+# Logging
+# tqdm>=4.66.3 required to fix CVE-2024-34062 (local code execution vulnerability)
+tqdm>=4.66.3
+
+# Optional: for advanced features
+# scikit-learn>=1.2.0  # For metrics
+# ta>=0.10.0  # Technical analysis library
